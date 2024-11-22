@@ -93,3 +93,54 @@ Library/ScriptMapper
 Library/expandedItems
 Library/LastSceneManagerSetup.txt
 /Library/ArtifactDB-lock
+
+# Unity Package Manager
+/[Pp]ackages/packages-lock.json
+
+# Scene auto-save files
+*.unity.autosave
+*.unity.orig
+*.unity.orig.meta
+
+# ProBuilder
+/[Aa]ssets/ProBuilder*
+
+# Dynamic Occluder files
+*.occlusionCullingData
+*.occlusionCullingData.meta
+
+# Additional Unity cache files
+/[Ll]ibrary/SourceAssetDB
+/[Ll]ibrary/SourceAssetDB-lock
+/[Ll]ibrary/PackageCache/
+/[Ll]ibrary/StateCache/
+/[Ll]ibrary/Artifacts/
+/[Ll]ibrary/BuildPlayerData/
+/[Ll]ibrary/ShaderCache.db
+/[Ll]ibrary/ArtifactDB
+
+# Local Unity preferences
+/ProjectSettings/Packages/
+/ProjectSettings/ProjectVersion.txt
+
+# Unity Timeline
+*.playable
+*.signal
+
+# Animation preview files
+*.anim.orig
+*.controller.orig
+
+# Additional IDE files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Unity Cloud Build
+/[Cc]loud[Bb]uild/
+
+# Additional build folders
+/[Ww]ebGL/
+/[Ss]taging/
+/[Rr]elease/
