@@ -577,6 +577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimsAssets_Door
       objectReference: {fileID: 0}
+    - target: {fileID: 4000013016911106, guid: 9f4e5dd2165039f4a878d1c1260761df, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.01
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013859883750, guid: 9f4e5dd2165039f4a878d1c1260761df, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.23
