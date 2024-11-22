@@ -70,3 +70,25 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Scene-related temp files
+*.dwlt
+# NavMesh related files
+*.NavMesh
+*.NavMesh.meta
+# Unity lighting data
+/[Aa]ssets/*/LightingData.asset
+/[Aa]ssets/*/LightingData.asset.meta
+# Scene cache files
+/[Aa]ssets/SceneCache/
+# Terrain files that change frequently
+*.terrain.meta
+# Unity database files
+*.db
+*.db-shm
+*.db-wal
+# Scene binary files that change frequently during editor use
+Library/ShaderCache/
+Library/ScriptMapper
+Library/expandedItems
+Library/LastSceneManagerSetup.txt
