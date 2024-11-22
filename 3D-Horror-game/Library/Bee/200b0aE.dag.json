@@ -362,8 +362,8 @@
       "DisplayName": "Writing UnityEngine.TestRunner.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
       "PayloadOffset": 106,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -374,8 +374,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 265,
-      "PayloadLength": 45398,
+      "PayloadOffset": 263,
+      "PayloadLength": 45372,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -387,9 +387,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.rsp2",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 45756,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 45728,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.rsp2"
@@ -2251,7 +2251,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 45938,
+      "PayloadOffset": 45908,
       "PayloadLength": 7441,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -2456,9 +2456,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEngine.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 53483,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 53453,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -2469,8 +2469,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp",
       "DisplayName": "Writing UnityEngine.UI.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 53634,
-      "PayloadLength": 39926,
+      "PayloadOffset": 53602,
+      "PayloadLength": 39900,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -2482,9 +2482,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp2",
       "DisplayName": "Writing UnityEngine.UI.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93645,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 93587,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp2"
@@ -2925,7 +2925,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93819,
+      "PayloadOffset": 93759,
       "PayloadLength": 7973,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -3142,9 +3142,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.TestRunner.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 101904,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 101844,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -3155,8 +3155,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp",
       "DisplayName": "Writing UnityEditor.TestRunner.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 102063,
-      "PayloadLength": 51473,
+      "PayloadOffset": 102001,
+      "PayloadLength": 51447,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -3168,9 +3168,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp2",
       "DisplayName": "Writing UnityEditor.TestRunner.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 153629,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 153541,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp2"
@@ -3630,7 +3630,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 153811,
+      "PayloadOffset": 153721,
       "PayloadLength": 7605,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -3839,9 +3839,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 161520,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 161430,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -3852,8 +3852,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp",
       "DisplayName": "Writing UnityEditor.UI.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 161671,
-      "PayloadLength": 37081,
+      "PayloadOffset": 161579,
+      "PayloadLength": 37055,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -3865,9 +3865,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp2",
       "DisplayName": "Writing UnityEditor.UI.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 198837,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 198719,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp2"
@@ -4217,7 +4217,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 199011,
+      "PayloadOffset": 198891,
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -4442,9 +4442,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 207425,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 207305,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
@@ -4455,8 +4455,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.rsp",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 207591,
-      "PayloadLength": 34534,
+      "PayloadOffset": 207469,
+      "PayloadLength": 34508,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -4468,9 +4468,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.rsp2",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 242225,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 242077,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.rsp2"
@@ -4771,7 +4771,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 242414,
+      "PayloadOffset": 242264,
       "PayloadLength": 8370,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -4998,9 +4998,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 250915,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 250765,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
@@ -5011,8 +5011,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 251093,
-      "PayloadLength": 37278,
+      "PayloadOffset": 250941,
+      "PayloadLength": 37252,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -5024,9 +5024,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 288483,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 288305,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2"
@@ -5338,7 +5338,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 288684,
+      "PayloadOffset": 288504,
       "PayloadLength": 8370,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -5565,9 +5565,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 297167,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 296987,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
@@ -5578,8 +5578,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.rsp",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 297327,
-      "PayloadLength": 65668,
+      "PayloadOffset": 297145,
+      "PayloadLength": 65642,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -5591,9 +5591,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.rsp2",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 363089,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 362881,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.rsp2"
@@ -6171,7 +6171,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.PlasticSCM.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 363272,
+      "PayloadOffset": 363062,
       "PayloadLength": 7924,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -6388,9 +6388,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Rider.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 371304,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 371094,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -6401,8 +6401,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.rsp",
       "DisplayName": "Writing Unity.Rider.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 371459,
-      "PayloadLength": 36896,
+      "PayloadOffset": 371247,
+      "PayloadLength": 36870,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -6414,9 +6414,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.rsp2",
       "DisplayName": "Writing Unity.Rider.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 408444,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 408206,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.rsp2"
@@ -6727,7 +6727,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Rider.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 408622,
+      "PayloadOffset": 408382,
       "PayloadLength": 7838,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -6942,9 +6942,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Settings.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 416571,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 416331,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt"
@@ -6955,8 +6955,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Settings.Editor.rsp",
       "DisplayName": "Writing Unity.Settings.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 416729,
-      "PayloadLength": 35241,
+      "PayloadOffset": 416487,
+      "PayloadLength": 35215,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -6968,9 +6968,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Settings.Editor.rsp2",
       "DisplayName": "Writing Unity.Settings.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 452062,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 451794,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Settings.Editor.rsp2"
@@ -7262,7 +7262,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Settings.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Settings.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 452243,
+      "PayloadOffset": 451973,
       "PayloadLength": 8370,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -7489,9 +7489,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 460754,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 460484,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
@@ -7502,8 +7502,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 460942,
-      "PayloadLength": 36000,
+      "PayloadOffset": 460670,
+      "PayloadLength": 35974,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -7515,9 +7515,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 497064,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 496766,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2"
@@ -7811,7 +7811,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 497275,
+      "PayloadOffset": 496975,
       "PayloadLength": 8370,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -8038,9 +8038,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 505796,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 505496,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
@@ -8051,8 +8051,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 505994,
-      "PayloadLength": 34784,
+      "PayloadOffset": 505692,
+      "PayloadLength": 34758,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -8064,9 +8064,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 540910,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 540582,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2"
@@ -8349,7 +8349,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 541131,
+      "PayloadOffset": 540801,
       "PayloadLength": 8370,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -8576,9 +8576,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 549608,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 549278,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -8589,8 +8589,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 549762,
-      "PayloadLength": 38041,
+      "PayloadOffset": 549430,
+      "PayloadLength": 38015,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -8602,9 +8602,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 587891,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 587533,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.rsp2"
@@ -8933,7 +8933,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 588068,
+      "PayloadOffset": 587708,
       "PayloadLength": 8123,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -9154,9 +9154,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 596295,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 595935,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -9167,8 +9167,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp",
       "DisplayName": "Writing Unity.Timeline.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 596446,
-      "PayloadLength": 39110,
+      "PayloadOffset": 596084,
+      "PayloadLength": 39084,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -9180,9 +9180,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp2",
       "DisplayName": "Writing Unity.Timeline.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 635641,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 635253,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp2"
@@ -9525,7 +9525,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 635815,
+      "PayloadOffset": 635425,
       "PayloadLength": 8123,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -9746,9 +9746,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VSCode.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 644047,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 643657,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
@@ -9759,8 +9759,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp",
       "DisplayName": "Writing Unity.VSCode.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 644203,
-      "PayloadLength": 34894,
+      "PayloadOffset": 643811,
+      "PayloadLength": 34868,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -9772,9 +9772,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp2",
       "DisplayName": "Writing Unity.VSCode.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 679187,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 678769,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp2"
@@ -10061,7 +10061,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VSCode.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 679366,
+      "PayloadOffset": 678946,
       "PayloadLength": 8370,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -10288,9 +10288,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 687852,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 687432,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -10301,8 +10301,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 688015,
-      "PayloadLength": 86605,
+      "PayloadOffset": 687593,
+      "PayloadLength": 86579,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -10314,9 +10314,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 774717,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 774269,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.rsp2"
@@ -11015,7 +11015,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 774903,
+      "PayloadOffset": 774453,
       "PayloadLength": 8123,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -11236,9 +11236,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualStudio.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 783141,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 782691,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -11249,8 +11249,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.rsp",
       "DisplayName": "Writing Unity.VisualStudio.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 783303,
-      "PayloadLength": 37179,
+      "PayloadOffset": 782851,
+      "PayloadLength": 37153,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -11262,9 +11262,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualStudio.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 820578,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 820100,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.rsp2"
@@ -11580,7 +11580,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualStudio.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 820763,
+      "PayloadOffset": 820283,
       "PayloadLength": 7838,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -11795,9 +11795,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.CollabProxy.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 828715,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 828235,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
@@ -11808,8 +11808,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.rsp",
       "DisplayName": "Writing Unity.CollabProxy.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 828876,
-      "PayloadLength": 34330,
+      "PayloadOffset": 828394,
+      "PayloadLength": 34304,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -11821,9 +11821,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.rsp2",
       "DisplayName": "Writing Unity.CollabProxy.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 863301,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 862793,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.rsp2"
@@ -12123,7 +12123,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.CollabProxy.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 863485,
+      "PayloadOffset": 862975,
       "PayloadLength": 8454,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -12352,9 +12352,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 872064,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 871554,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
@@ -12365,8 +12365,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 872236,
-      "PayloadLength": 38531,
+      "PayloadOffset": 871724,
+      "PayloadLength": 38505,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -12378,9 +12378,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 910873,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 910335,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2"
@@ -12760,7 +12760,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 911068,
+      "PayloadOffset": 910528,
       "PayloadLength": 8154,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -12981,9 +12981,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 919336,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 918796,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -12994,8 +12994,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 919497,
-      "PayloadLength": 38647,
+      "PayloadOffset": 918955,
+      "PayloadLength": 38621,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -13007,9 +13007,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 958239,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 957671,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.rsp2"
@@ -13356,7 +13356,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 958423,
+      "PayloadOffset": 957853,
       "PayloadLength": 8448,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -13585,9 +13585,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 966982,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 966412,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
@@ -13598,8 +13598,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 967140,
-      "PayloadLength": 58262,
+      "PayloadOffset": 966568,
+      "PayloadLength": 58236,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -13611,9 +13611,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp2",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1025494,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 1024896,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp2"
@@ -14184,7 +14184,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1025675,
+      "PayloadOffset": 1025075,
       "PayloadLength": 8445,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -14413,9 +14413,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1034243,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 1033643,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
@@ -14426,8 +14426,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1034413,
-      "PayloadLength": 90730,
+      "PayloadOffset": 1033811,
+      "PayloadLength": 90704,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -14439,9 +14439,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1125247,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 1124619,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2"
@@ -15210,7 +15210,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1125440,
+      "PayloadOffset": 1124810,
       "PayloadLength": 8457,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -15439,9 +15439,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1134013,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 1133383,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -15452,8 +15452,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1134176,
-      "PayloadLength": 81907,
+      "PayloadOffset": 1133544,
+      "PayloadLength": 81881,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -15465,9 +15465,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1216180,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 1215522,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.rsp2"
@@ -16141,7 +16141,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1216366,
+      "PayloadOffset": 1215706,
       "PayloadLength": 8210,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -16364,9 +16364,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1224699,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 1224039,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
@@ -16377,8 +16377,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1224869,
-      "PayloadLength": 54586,
+      "PayloadOffset": 1224207,
+      "PayloadLength": 54560,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -16390,9 +16390,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1279559,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 1278871,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2"
@@ -16882,7 +16882,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1279752,
+      "PayloadOffset": 1279062,
       "PayloadLength": 8638,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -17115,9 +17115,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1288507,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 1287817,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -17128,8 +17128,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1288671,
-      "PayloadLength": 36285,
+      "PayloadOffset": 1287979,
+      "PayloadLength": 36259,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -17141,9 +17141,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1325054,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 1324336,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.rsp2"
@@ -17448,7 +17448,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1325241,
+      "PayloadOffset": 1324521,
       "PayloadLength": 8297,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -17673,9 +17673,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1333673,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 1332953,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
@@ -17686,8 +17686,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1333855,
-      "PayloadLength": 35789,
+      "PayloadOffset": 1333133,
+      "PayloadLength": 35763,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -17699,9 +17699,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1369760,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 1369012,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2"
@@ -18036,7 +18036,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1369965,
+      "PayloadOffset": 1369215,
       "PayloadLength": 8820,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -18273,9 +18273,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1378909,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 1378159,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
@@ -18286,8 +18286,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1379080,
-      "PayloadLength": 42558,
+      "PayloadOffset": 1378328,
+      "PayloadLength": 42532,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -18299,9 +18299,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1421743,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 1420965,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.Editor.rsp2"
@@ -18658,7 +18658,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1421937,
+      "PayloadOffset": 1421157,
       "PayloadLength": 8820,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -18895,9 +18895,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1430882,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 1430102,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
@@ -18908,8 +18908,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1431054,
-      "PayloadLength": 34769,
+      "PayloadOffset": 1430272,
+      "PayloadLength": 34743,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -18921,9 +18921,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1465929,
-      "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadOffset": 1465121,
+      "PayloadLength": 78,
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/ericribeiro/D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2"
@@ -19233,7 +19233,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1466124,
+      "PayloadOffset": 1465314,
       "PayloadLength": 8915,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -19472,9 +19472,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1475144,
-      "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadOffset": 1474334,
+      "PayloadLength": 65,
+      "PayloadDebugContentSnippet": "/Users/ericribeiro/Documents/G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -19485,8 +19485,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1475296,
-      "PayloadLength": 33330,
+      "PayloadOffset": 1474484,
+      "PayloadLength": 33304,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -19498,7 +19498,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1508712,
+      "PayloadOffset": 1507874,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -19982,7 +19982,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1508807,
+      "PayloadOffset": 1507969,
       "PayloadLength": 9349,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
@@ -21068,7 +21068,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies\" -s=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator\" -s=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies\" -s=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator\" -s=\"/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
         "/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -21220,7 +21220,7 @@
   ],
   "StatSignatures": [
     {
-      "File": "/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/getconf"
+      "File": "/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/getconf"
     },
     {
       "File": "Assets/csc.rsp"
@@ -21354,6 +21354,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/200b0aE.dag.json",
-  "PayloadsFile": "/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/Bee/200b0aE.dag.payloads",
+  "PayloadsFile": "/Users/ericribeiro/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/Bee/200b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
