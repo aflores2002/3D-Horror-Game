@@ -363,7 +363,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 106,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -389,7 +389,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 45756,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.rsp2"
@@ -2458,7 +2458,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 53483,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -2484,7 +2484,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 93645,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.rsp2"
@@ -3144,7 +3144,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 101904,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -3170,7 +3170,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 153629,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.rsp2"
@@ -3841,7 +3841,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 161520,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -3867,7 +3867,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 198837,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.rsp2"
@@ -4444,7 +4444,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 207425,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
@@ -4470,7 +4470,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 242225,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.rsp2"
@@ -5000,7 +5000,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 250915,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
@@ -5026,7 +5026,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 288483,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2"
@@ -5567,7 +5567,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 297167,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
@@ -5593,7 +5593,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 363089,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.rsp2"
@@ -6390,7 +6390,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 371304,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -6416,7 +6416,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 408444,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.rsp2"
@@ -6944,7 +6944,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 416571,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt"
@@ -6970,7 +6970,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 452062,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Settings.Editor.rsp2"
@@ -7491,7 +7491,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 460754,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
@@ -7517,7 +7517,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 497064,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2"
@@ -8040,7 +8040,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 505796,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
@@ -8066,7 +8066,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 540910,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2"
@@ -8578,7 +8578,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 549608,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -8604,7 +8604,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 587891,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.rsp2"
@@ -9156,7 +9156,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 596295,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -9182,7 +9182,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 635641,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.rsp2"
@@ -9748,7 +9748,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 644047,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
@@ -9774,7 +9774,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 679187,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.rsp2"
@@ -10290,7 +10290,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 687852,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -10316,7 +10316,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 774717,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.rsp2"
@@ -11238,7 +11238,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 783141,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -11264,7 +11264,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 820578,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.rsp2"
@@ -11797,7 +11797,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 828715,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
@@ -11823,7 +11823,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 863301,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.CollabProxy.Editor.rsp2"
@@ -12354,7 +12354,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 872064,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
@@ -12380,7 +12380,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 910873,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2"
@@ -12983,7 +12983,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 919336,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -13009,7 +13009,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 958239,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.rsp2"
@@ -13587,7 +13587,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 966982,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
@@ -13613,7 +13613,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1025494,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.rsp2"
@@ -14415,7 +14415,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1034243,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
@@ -14441,7 +14441,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1125247,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2"
@@ -15441,7 +15441,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1134013,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -15467,7 +15467,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1216180,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.rsp2"
@@ -16366,7 +16366,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1224699,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
@@ -16392,7 +16392,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1279559,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2"
@@ -17117,7 +17117,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1288507,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -17143,7 +17143,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1325054,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.rsp2"
@@ -17675,7 +17675,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1333673,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
@@ -17701,7 +17701,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1369760,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2"
@@ -18275,7 +18275,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1378909,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
@@ -18301,7 +18301,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1421743,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.Editor.rsp2"
@@ -18897,7 +18897,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1430882,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
@@ -18923,7 +18923,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1465929,
       "PayloadLength": 80,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/alfredoflores",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/gabrielacalvo",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2"
@@ -19474,7 +19474,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1475144,
       "PayloadLength": 67,
-      "PayloadDebugContentSnippet": "/Users/alfredoflores/Documents",
+      "PayloadDebugContentSnippet": "/Users/gabrielacalvo/Documents",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -21068,7 +21068,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies\" -s=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator\" -s=\"/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/ScriptAssemblies\" -s=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator\" -s=\"/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
         "/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -21220,7 +21220,7 @@
   ],
   "StatSignatures": [
     {
-      "File": "/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/getconf"
+      "File": "/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/getconf"
     },
     {
       "File": "Assets/csc.rsp"
@@ -21354,6 +21354,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/200b0aE.dag.json",
-  "PayloadsFile": "/Users/alfredoflores/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/Bee/200b0aE.dag.payloads",
+  "PayloadsFile": "/Users/gabrielacalvo/Documents/GitHub/3D-Horror-Game/3D-Horror-game/Library/Bee/200b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
