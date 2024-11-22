@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     // Mouse and camera stuff
     public float mouseSpeed = 2f;
     public float maxUpDownAngle = 75f;
-    public float smoothValue = 5f;
+    public float smoothValue = 10f;
 
     // These keep track of player movement
     private Vector3 howToMove = Vector3.zero;
