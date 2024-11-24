@@ -1,8 +1,9 @@
+// KeyFragmentManager.cs
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-// Manages key fragment collection using singleton pattern
+// Manages key fragment collection using singleton pattern (Will fully implement later)
 public class KeyFragmentManager : MonoBehaviour
 {
     public static KeyFragmentManager Instance { get; private set; }

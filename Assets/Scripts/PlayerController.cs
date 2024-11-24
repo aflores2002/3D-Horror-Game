@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿// PlayerController.cs
+using UnityEngine;
 
 // Need this to make player move
 [RequireComponent(typeof(CharacterController))]

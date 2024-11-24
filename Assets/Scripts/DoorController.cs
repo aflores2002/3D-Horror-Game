@@ -1,3 +1,4 @@
+// DoorController.cs
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -27,7 +28,7 @@ public class DoorController : MonoBehaviour
         }
     }
 
-    // Checks if player has required fragments before opening door
+    // Checks if player has required fragments before opening door (Will be actually implemented later)
     void TryOpenDoor()
     {
         if (KeyFragmentManager.Instance.HasAllFragments())
