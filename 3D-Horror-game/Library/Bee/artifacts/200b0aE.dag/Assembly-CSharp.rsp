@@ -351,9 +351,12 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Scripts/PickUpItem.cs"
+"Assets/Scripts/Interaction System/Door.cs"
+"Assets/Scripts/Interaction System/IInteractable.cs"
+"Assets/Scripts/Interaction System/Interactor.cs"
+"Assets/Scripts/Interaction System/Inventory.cs"
+"Assets/Scripts/Interaction System/Key.cs"
 "Assets/Scripts/PlayerController.cs"
-"Assets/Scripts/PlayerInteraction.cs"
 -langversion:9.0
 /deterministic
 /optimize+
