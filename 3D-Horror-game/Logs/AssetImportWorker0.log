@@ -1119,3 +1119,190 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43893.057350 seconds.
+  path: Assets/Map/Materials/Tile.mat
+  artifactKey: Guid(73d559205dafb40fe8f6be90c0deaf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Materials/Tile.mat using Guid(73d559205dafb40fe8f6be90c0deaf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2060825fc33a4dc324dd264c2e721ab5') in 0.536211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 718.755149 seconds.
+  path: Assets/smudge1.jpeg
+  artifactKey: Guid(7245776a5525e446cb9e24a997b08c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smudge1.jpeg using Guid(7245776a5525e446cb9e24a997b08c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '53fc7b3ee43d7a896ac1fdcde8a5829a') in 0.288744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1032.048966 seconds.
+  path: Assets/smudge1-removebg-preview.png
+  artifactKey: Guid(6251b2c21cd3c4df8b9e63a30acfcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smudge1-removebg-preview.png using Guid(6251b2c21cd3c4df8b9e63a30acfcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ee108ce99dee09690838feb7395ca124') in 0.152343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.504199 seconds.
+  path: Assets/smudge2-removebg-preview.png
+  artifactKey: Guid(82eb03e5dcdb74ba4a92ef4868ff75aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smudge2-removebg-preview.png using Guid(82eb03e5dcdb74ba4a92ef4868ff75aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8c7a94b4d2ee4eca1e88cc268cb7cb4d') in 0.071689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 50.889151 seconds.
+  path: Assets/smudge1-removebg-preview.png
+  artifactKey: Guid(6251b2c21cd3c4df8b9e63a30acfcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smudge1-removebg-preview.png using Guid(6251b2c21cd3c4df8b9e63a30acfcc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c4d5acd72a6664f72ec04340a932e014') in 0.137799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 236.030127 seconds.
+  path: Assets/smudge2-removebg-preview.png
+  artifactKey: Guid(82eb03e5dcdb74ba4a92ef4868ff75aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smudge2-removebg-preview.png using Guid(82eb03e5dcdb74ba4a92ef4868ff75aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a18ba4ba267e1f3eaeef865ba28a020f') in 0.103387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 458.728433 seconds.
+  path: Assets/smudge2-cropped.png
+  artifactKey: Guid(c9a8fa1a8a03646cba4caef1c2ac3ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smudge2-cropped.png using Guid(c9a8fa1a8a03646cba4caef1c2ac3ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f38ff49e62caf11e355972358dfe586d') in 0.067654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.133036 seconds.
+  path: Assets/smudge2-cropped.png
+  artifactKey: Guid(c9a8fa1a8a03646cba4caef1c2ac3ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smudge2-cropped.png using Guid(c9a8fa1a8a03646cba4caef1c2ac3ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '28837da47c3cc9c3981d26e21376cf6f') in 0.086981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 87.932948 seconds.
+  path: Assets/smudge2-cropped.png
+  artifactKey: Guid(c9a8fa1a8a03646cba4caef1c2ac3ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smudge2-cropped.png using Guid(c9a8fa1a8a03646cba4caef1c2ac3ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '971964eaf42f3d1201f066fa88969035') in 0.123911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.949129 seconds.
+  path: Assets/smudge2-cropped.png
+  artifactKey: Guid(c9a8fa1a8a03646cba4caef1c2ac3ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smudge2-cropped.png using Guid(c9a8fa1a8a03646cba4caef1c2ac3ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '60d3077edc678926885c060a689ff7ef') in 0.061125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 505.198608 seconds.
+  path: Assets/smude1-cropped.png
+  artifactKey: Guid(fcf9800b165124175b14fa29c9d0d622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smude1-cropped.png using Guid(fcf9800b165124175b14fa29c9d0d622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2759e2d52748c1ba1594e20b3a87aff2') in 0.132674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.745227 seconds.
+  path: Assets/smude1-cropped.png
+  artifactKey: Guid(fcf9800b165124175b14fa29c9d0d622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/smude1-cropped.png using Guid(fcf9800b165124175b14fa29c9d0d622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b630bcac0bbc6b8fe170257ccde125d') in 0.107931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16d28b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.411 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.701 seconds
+Domain Reload Profiling: 1114ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (701ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (206ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.8 KB). Loaded Objects now: 3643.
+Memory consumption went from 175.1 MB to 175.1 MB.
+Total: 3.285417 ms (FindLiveObjects: 0.167083 ms CreateObjectMapping: 0.042958 ms MarkObjects: 3.028084 ms  DeleteObjects: 0.046791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
