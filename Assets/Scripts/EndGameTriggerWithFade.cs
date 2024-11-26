@@ -3,32 +3,33 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections;
 
+// Handles end game sequence with fade effect and typewriter text animation
 public class EndGameTriggerWithFade : MonoBehaviour
 {
     [SerializeField]
-    private GameObject endingPanel;
+    private GameObject endingPanel; // UI panel that appears at game ending
 
     [SerializeField]
-    private TextMeshProUGUI endingText;
+    private TextMeshProUGUI endingText; // Text component for ending message
 
     [Header("Panel Settings")]
     [SerializeField]
-    private float fadeInSpeed = 1f;
+    private float fadeInSpeed = 1f; // Speed of panel fade in effect
 
     [Header("Text Settings")]
     [SerializeField]
-    // Removed special formatting characters that might not be supported
     private string victoryMessage = "Congratulations!\nYou have survived!";
 
     [SerializeField]
-    private float typingSpeed = 0.05f;
+    private float typingSpeed = 0.05f; // Delay between each character appearing
 
     [SerializeField]
-    private AudioSource typingSoundEffect;
+    private AudioSource typingSoundEffect; // Sound played for each character typed
 
-    private bool hasEnded = false;
-    private CanvasGroup canvasGroup;
+    private bool hasEnded = false;   // Prevents trigger from firing multiple times
+    private CanvasGroup canvasGroup; // Controls panel transparency
 
+    // Initialize UI elements and ensure proper setup
     void Start()
     {
         if (endingPanel != null)
@@ -41,16 +42,15 @@ public class EndGameTriggerWithFade : MonoBehaviour
             }
             canvasGroup.alpha = 0f;
 
-            // Make sure TextMeshPro starts with empty text, no formatting
             if (endingText != null)
             {
                 endingText.text = "";
-                // Disable rich text to prevent any special character formatting
-                endingText.richText = false;
+                endingText.richText = false; // Prevents formatting issues
             }
         }
     }
 
+    // Triggers victory sequence when player enters trigger zone
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !hasEnded)
@@ -59,6 +59,7 @@ public class EndGameTriggerWithFade : MonoBehaviour
         }
     }
 
+    // Coordinates the victory animations
     IEnumerator ShowVictorySequence()
     {
         hasEnded = true;
@@ -73,6 +74,7 @@ public class EndGameTriggerWithFade : MonoBehaviour
         yield break;
     }
 
+    // Gradually fades in the ending panel
     IEnumerator FadeInPanel()
     {
         while (canvasGroup.alpha < 1f)
@@ -82,6 +84,7 @@ public class EndGameTriggerWithFade : MonoBehaviour
         }
     }
 
+    // Creates typewriter effect by showing text character by character
     IEnumerator TypeText()
     {
         if (endingText != null)
