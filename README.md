@@ -29,7 +29,7 @@ Environment
 
 Player 
 - Visible hand with flashlight
-#General goals for each person (such as art/animation/level design)
+# General goals for each person (such as art/animation/level design)
 # Alfredo
 type here
 # Nick
