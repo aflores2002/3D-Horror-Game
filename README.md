@@ -4,7 +4,7 @@
 - Nick Russert
 - Gabriela Calvo
 - Eric
-- Ali
+- Alicia Loya
 # Current target for the game
 Core Gameplay Loop:
 - Players must collect 4 key fragments placed around the map
@@ -31,12 +31,19 @@ Player
 - Visible hand with flashlight
 # General goals for each person (such as art/animation/level design)
 # Alfredo
-type here
+Map design, exit door system, ending scene, AI player detection & patrolling system
 # Nick
-type here
+AI enemy, asset, sound, and script 
 # Gabriela
-type here
+Setting/environment objects 
+hospital beds, medical boxes, wheelchairs, hospital lights, stains
+Static (for now) key fragment locations and collection mechanic
+Sound, fragment count UI
+Future goals
+Randomly generated fragment locations
+Flickering lights
+
 # Eric
-type here
-# Ali
-type here
+Interaction scripts, main game audio
+# Alicia
+Lighting, Player hand with visible flashlight, possible battery/toggle
