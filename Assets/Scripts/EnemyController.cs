@@ -10,20 +10,32 @@ public class EnemyController : MonoBehaviour
     public float idleTime = 2f;
     // Movement speed while walking between waypoints
     public float walkSpeed = 2f;
+    //chase speed once seen the player 
+    public float chaseSpeed = 4f;
+    //how far away he will see the player 
+    public float sightDistance = 10f;
+
+
 
     // Reference to the NavMeshAgent component for pathfinding
     private NavMeshAgent agent;
     // Reference to the Animator component for controlling animations
     private Animator animator;
+    //reference player 
+    private Transform player;
+
     // Timer to track how long the enemy has been idle at a waypoint
     private float idleTimer = 0f;
     // Index of the current waypoint in the waypoints array
     private int currentWaypointIndex = 0;
 
     // States for the enemy AI
-    private enum EnemyState { Idle, Walk }
+    private enum EnemyState { Idle, Walk, Chase }
     // Current state of the enemy
     private EnemyState currentState = EnemyState.Idle;
+
+    private bool isChasingAnimation = false;
+
 
     // Cached hash ID for the animator parameter to improve performance
     private readonly int animStateHash = Animator.StringToHash("AnimState");
@@ -33,11 +45,16 @@ public class EnemyController : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
         SetDestinationToWaypoint();
     }
 
     private void Update()
     {
+        //check if player is within detection range 
+        CheckForPlayerDetection();
+
         switch (currentState)
         {
             case EnemyState.Idle:
@@ -46,6 +63,22 @@ public class EnemyController : MonoBehaviour
 
             case EnemyState.Walk:
                 HandleWalkState();
+                break;
+
+            case EnemyState.Chase:
+                idleTimer = 0f;
+                agent.speed = chaseSpeed; // Set the chase speed.
+                agent.SetDestination(player.position);
+                animator.SetBool("IsChasing", true); // Set IsChasing to true in chase state.
+
+                
+
+                // Check if the player is out of sight and go back to the walk state.
+                if (Vector3.Distance(transform.position, player.position) > sightDistance)
+                {
+                    currentState = EnemyState.Walk;
+                    agent.speed = walkSpeed; // Restore walking speed.
+                }
                 break;
         }
     }
@@ -79,6 +112,21 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    private void CheckForPlayerDetection()
+    {
+        RaycastHit hit;
+        Vector3 playerDirection = player.position - transform.position;
+
+        if (Physics.Raycast(transform.position, playerDirection.normalized, out hit, sightDistance))
+        {
+            if (hit.collider.CompareTag("Player"))
+            {
+                currentState = EnemyState.Chase;
+                Debug.Log("Player detected!");
+            }
+        }
+    }
+
     // Advances to the next waypoint in the patrol sequence
     private void NextWaypoint()
     {
@@ -98,32 +146,16 @@ public class EnemyController : MonoBehaviour
         agent.speed = walkSpeed;
     }
 
-    // Draws debug visualization of the patrol path in the Unity editor
+
+
+    // Draw a green raycast line at all times and switch to red when the player is detected.
     private void OnDrawGizmos()
     {
-        // Only draw if we have waypoints set up
-        if (waypoints != null && waypoints.Length > 0)
+        // Ensure the player reference is valid before drawing the line
+        if (player != null)
         {
-            Gizmos.color = Color.blue;
-            for (int i = 0; i < waypoints.Length; i++)
-            {
-                if (waypoints[i] != null)
-                {
-                    // Draw a sphere at each waypoint
-                    Gizmos.DrawWireSphere(waypoints[i].position, 0.5f);
-
-                    // Draw lines between consecutive waypoints
-                    if (i + 1 < waypoints.Length && waypoints[i + 1] != null)
-                    {
-                        Gizmos.DrawLine(waypoints[i].position, waypoints[i + 1].position);
-                    }
-                    // Draw line from last waypoint back to first to complete the patrol circuit
-                    else if (i == waypoints.Length - 1 && waypoints[0] != null)
-                    {
-                        Gizmos.DrawLine(waypoints[i].position, waypoints[0].position);
-                    }
-                }
-            }
+            Gizmos.color = currentState == EnemyState.Chase ? Color.red : Color.green;
+            Gizmos.DrawLine(transform.position, player.position);
         }
     }
 }
