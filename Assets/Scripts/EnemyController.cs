@@ -15,6 +15,11 @@ public class EnemyController : MonoBehaviour
     //how far away he will see the player 
     public float sightDistance = 10f;
 
+    //heartbeat for when player is detected
+    public AudioSource heartbeatAudioSource; // Reference to the heartbeat Audio Source
+
+    public float heartbeatFadeSpeed = 1f; // Speed for fading in/out the heartbeat
+
 
 
     // Reference to the NavMeshAgent component for pathfinding
@@ -121,11 +126,42 @@ public class EnemyController : MonoBehaviour
         {
             if (hit.collider.CompareTag("Player"))
             {
+                if (currentState != EnemyState.Chase) // Start heartbeat if entering Chase state
+                {
+                    StartHeartbeat();
+                }
                 currentState = EnemyState.Chase;
                 Debug.Log("Player detected!");
             }
         }
+        else
+        {
+            if (currentState == EnemyState.Chase) // Stop heartbeat if leaving Chase state
+            {
+                StopHeartbeat();
+            }
+        }
     }
+
+    private void StartHeartbeat()
+    {
+        if (!heartbeatAudioSource.isPlaying)
+        {
+            heartbeatAudioSource.Play();
+        }
+    }
+
+    private void StopHeartbeat()
+    {
+        if (heartbeatAudioSource != null && heartbeatAudioSource.isPlaying)
+        {
+            heartbeatAudioSource.Stop();
+        }
+    }
+
+
+
+
 
     // Advances to the next waypoint in the patrol sequence
     private void NextWaypoint()
