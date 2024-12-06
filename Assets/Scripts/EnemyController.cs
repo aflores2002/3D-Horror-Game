@@ -34,7 +34,7 @@ public class EnemyController : MonoBehaviour
     // Current state of the enemy
     private EnemyState currentState = EnemyState.Idle;
 
-    private bool isChasingAnimation = false;
+    //private bool isChasingAnimation = false;
 
 
     // Cached hash ID for the animator parameter to improve performance
@@ -69,7 +69,7 @@ public class EnemyController : MonoBehaviour
                 idleTimer = 0f;
                 agent.speed = chaseSpeed; // Set the chase speed.
                 agent.SetDestination(player.position);
-                animator.SetBool("IsChasing", true); // Set IsChasing to true in chase state.
+                //animator.SetBool("IsChasing", true); // Set IsChasing to true in chase state.
 
                 
 
