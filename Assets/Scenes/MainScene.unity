@@ -3988,6 +3988,7 @@ GameObject:
   - component: {fileID: 728644641}
   - component: {fileID: 728644643}
   - component: {fileID: 728644642}
+  - component: {fileID: 728644644}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -4070,6 +4071,25 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &728644644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728644640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e72788c10ce43e49c005d82f13991a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spotLight: {fileID: 1598027385}
+  playerCamera: {fileID: 728644643}
+  lightRange: 12
+  spotAngle: 66
+  lightIntensity: 2
+  toggleKey: 102
+  toggleSound: {fileID: 0}
 --- !u!1 &731891001 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8630640014681758926, guid: 2a3b3a882d9cfc74392ec24693855ae8, type: 3}
