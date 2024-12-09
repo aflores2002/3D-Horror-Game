@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-// Controls enemy AI patrol behavior using waypoints and NavMesh for navigation
 public class EnemyController : MonoBehaviour
 {
     // Array of waypoints the enemy will patrol between
@@ -10,42 +9,33 @@ public class EnemyController : MonoBehaviour
     public float idleTime = 2f;
     // Movement speed while walking between waypoints
     public float walkSpeed = 2f;
-    //chase speed once seen the player 
+    // Movement speed while chasing the player
     public float chaseSpeed = 4f;
-    //how far away he will see the player 
+    // How far away the enemy can detect the player
     public float sightDistance = 10f;
 
-    //heartbeat for when player is detected
-    public AudioSource heartbeatAudioSource; // Reference to the heartbeat Audio Source
+    // Heartbeat sound for player detection
+    public AudioSource heartbeatAudioSource;
 
-    public float heartbeatFadeSpeed = 1f; // Speed for fading in/out the heartbeat
-
-
-
-    // Reference to the NavMeshAgent component for pathfinding
+    // Reference to the NavMeshAgent component
     private NavMeshAgent agent;
-    // Reference to the Animator component for controlling animations
+    // Reference to the Animator component
     private Animator animator;
-    //reference player 
+    // Reference to the player transform
     private Transform player;
 
-    // Timer to track how long the enemy has been idle at a waypoint
+    // Timer to track idle time
     private float idleTimer = 0f;
-    // Index of the current waypoint in the waypoints array
+    // Current waypoint index
     private int currentWaypointIndex = 0;
 
-    // States for the enemy AI
+    // Enemy states
     private enum EnemyState { Idle, Walk, Chase }
-    // Current state of the enemy
     private EnemyState currentState = EnemyState.Idle;
 
-    //private bool isChasingAnimation = false;
-
-
-    // Cached hash ID for the animator parameter to improve performance
+    // Animator parameter hash
     private readonly int animStateHash = Animator.StringToHash("AnimState");
 
-    // Initialize components and start patrolling
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -57,9 +47,10 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        //check if player is within detection range 
+        // Handle player detection
         CheckForPlayerDetection();
 
+        // Update behavior based on the current state
         switch (currentState)
         {
             case EnemyState.Idle:
@@ -71,49 +62,8 @@ public class EnemyController : MonoBehaviour
                 break;
 
             case EnemyState.Chase:
-                idleTimer = 0f;
-                agent.speed = chaseSpeed; // Set the chase speed.
-                agent.SetDestination(player.position);
-                //animator.SetBool("IsChasing", true); // Set IsChasing to true in chase state.
-
-                
-
-                // Check if the player is out of sight and go back to the walk state.
-                if (Vector3.Distance(transform.position, player.position) > sightDistance)
-                {
-                    currentState = EnemyState.Walk;
-                    agent.speed = walkSpeed; // Restore walking speed.
-                }
+                HandleChaseState();
                 break;
-        }
-    }
-
-    // Handles behavior while in idle state at a waypoint
-    private void HandleIdleState()
-    {
-        // Increment the idle timer
-        idleTimer += Time.deltaTime;
-        // Set animation to idle state (0)
-        animator.SetInteger(animStateHash, 0);
-
-        // If we've waited long enough, move to next waypoint
-        if (idleTimer >= idleTime)
-        {
-            idleTimer = 0f;
-            NextWaypoint();
-        }
-    }
-
-    // Handles behavior while walking between waypoints
-    private void HandleWalkState()
-    {
-        // Set animation to walking state (1)
-        animator.SetInteger(animStateHash, 1);
-
-        // If we've reached the current waypoint, switch to idle
-        if (agent.remainingDistance <= agent.stoppingDistance)
-        {
-            currentState = EnemyState.Idle;
         }
     }
 
@@ -122,24 +72,86 @@ public class EnemyController : MonoBehaviour
         RaycastHit hit;
         Vector3 playerDirection = player.position - transform.position;
 
+        // Raycast to check if the player is visible within sight distance
         if (Physics.Raycast(transform.position, playerDirection.normalized, out hit, sightDistance))
         {
             if (hit.collider.CompareTag("Player"))
             {
-                if (currentState != EnemyState.Chase) // Start heartbeat if entering Chase state
+                if (currentState != EnemyState.Chase) // Only transition to Chase if not already chasing
                 {
                     StartHeartbeat();
+                    SwitchToState(EnemyState.Chase);
+                    Debug.Log("Player detected!");
                 }
-                currentState = EnemyState.Chase;
-                Debug.Log("Player detected!");
             }
         }
         else
         {
-            if (currentState == EnemyState.Chase) // Stop heartbeat if leaving Chase state
+            // Stop chasing if the player is no longer detected
+            if (currentState == EnemyState.Chase)
             {
                 StopHeartbeat();
+                SwitchToState(EnemyState.Walk);
+                Debug.Log("Player lost, returning to patrol.");
             }
+        }
+    }
+
+    private void HandleIdleState()
+    {
+        animator.SetInteger(animStateHash, 0); // Set animation to idle
+        idleTimer += Time.deltaTime;
+
+        // Switch to walking after idle time expires
+        if (idleTimer >= idleTime)
+        {
+            idleTimer = 0f;
+            NextWaypoint();
+        }
+    }
+
+    private void HandleWalkState()
+    {
+        if (agent.remainingDistance <= agent.stoppingDistance)
+        {
+            SwitchToState(EnemyState.Idle); // Transition to Idle when a waypoint is reached
+        }
+
+        // Ensure walking animation and speed are set
+        if (agent.speed != walkSpeed)
+        {
+            agent.speed = walkSpeed;
+            animator.SetInteger(animStateHash, 1);
+        }
+    }
+
+    private void HandleChaseState()
+    {
+        // Set running animation and chase speed
+        if (agent.speed != chaseSpeed)
+        {
+            agent.speed = chaseSpeed;
+            animator.SetInteger(animStateHash, 2); // Run animation
+        }
+
+        // Continuously update the destination to the player's position
+        agent.SetDestination(player.position);
+
+        // Stop chasing if the player is out of sight
+        if (Vector3.Distance(transform.position, player.position) > sightDistance)
+        {
+            StopHeartbeat();
+            SwitchToState(EnemyState.Walk);
+            SetDestinationToWaypoint();
+        }
+    }
+
+    private void SwitchToState(EnemyState newState)
+    {
+        if (currentState != newState)
+        {
+            currentState = newState; // Update the current state
+            Debug.Log($"Switched to state: {newState}");
         }
     }
 
@@ -153,41 +165,28 @@ public class EnemyController : MonoBehaviour
 
     private void StopHeartbeat()
     {
-        if (heartbeatAudioSource != null && heartbeatAudioSource.isPlaying)
+        if (heartbeatAudioSource.isPlaying)
         {
             heartbeatAudioSource.Stop();
         }
     }
 
-
-
-
-
-    // Advances to the next waypoint in the patrol sequence
     private void NextWaypoint()
     {
-        // Increment waypoint index, wrapping around to 0 if we exceed array bounds
+        // Move to the next waypoint in the patrol route
         currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
         SetDestinationToWaypoint();
     }
 
-    // Sets the NavMeshAgent's destination to the current waypoint
     private void SetDestinationToWaypoint()
     {
-        // Tell the NavMeshAgent to move to the current waypoint
         agent.SetDestination(waypoints[currentWaypointIndex].position);
-        // Change state to walking
-        currentState = EnemyState.Walk;
-        // Set the movement speed
-        agent.speed = walkSpeed;
+        SwitchToState(EnemyState.Walk); // Transition to walking state
     }
 
-
-
-    // Draw a green raycast line at all times and switch to red when the player is detected.
     private void OnDrawGizmos()
     {
-        // Ensure the player reference is valid before drawing the line
+        // Draw a line to the player, green if patrolling, red if chasing
         if (player != null)
         {
             Gizmos.color = currentState == EnemyState.Chase ? Color.red : Color.green;
