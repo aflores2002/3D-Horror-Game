@@ -3,7 +3,7 @@
 - Alfredo Flores
 - Nick Russert
 - Gabriela Calvo
-- Eric
+- Eric Ribeiro
 - Alicia Loya
 # Current target for the game
 Core Gameplay Loop:
