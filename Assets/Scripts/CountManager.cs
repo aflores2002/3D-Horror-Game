@@ -19,7 +19,7 @@ public class CountManager : MonoBehaviour
     }
 
 
-    // Update is called once per frame
+    //updates the UI when the unity event is triggered
     public void UpdateKeyCountText()
     {
         //will be triggered using unity event
