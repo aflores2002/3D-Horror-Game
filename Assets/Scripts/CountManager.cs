@@ -9,13 +9,21 @@ public class CountManager : MonoBehaviour
     private TextMeshProUGUI keyCountText;
     void Start()
     {
+       
         keyCountText = GetComponent<TextMeshProUGUI>();
+        //connect to the collection event
+        KeyFragmentManager.Instance.OnKeyCollection.AddListener(UpdateKeyCountText);
+        //initializes count
+        UpdateKeyCountText();
+
     }
 
+
     // Update is called once per frame
-    public void UpdateKeyCountText(KeyFragmentManager fragmentManager)
+    public void UpdateKeyCountText()
     {
         //will be triggered using unity event
-        keyCountText.text = fragmentManager.keyCount().ToString();
+        Debug.Log("trying to update KeyCountText\n");
+        keyCountText.text = KeyFragmentManager.Instance.keyCount().ToString();
     }
 }

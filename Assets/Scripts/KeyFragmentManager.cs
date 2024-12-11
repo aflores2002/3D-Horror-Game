@@ -4,6 +4,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Events;
 
+
+
 // Manages key fragment collection using singleton pattern (Will fully implement later)
 public class KeyFragmentManager : MonoBehaviour
 {
@@ -12,14 +14,15 @@ public class KeyFragmentManager : MonoBehaviour
 
     public static KeyFragmentManager Instance { get; private set; }
 
-    public UnityEvent<KeyFragmentManager> OnKeyCollection;
+    public UnityEvent OnKeyCollection;
 
     [SerializeField]
-    private bool testMode = true;  // Bypasses fragment requirement when enabled
+    //private bool testMode = true;  // Bypasses fragment requirement when enabled
 
-    private int collectedFragments = 0;
+    public int collectedFragments = 0;
     public int requiredFragments = 4;
 
+    
     void Awake()
     {
         // Singleton setup - maintains single instance across scenes
@@ -57,29 +60,26 @@ public class KeyFragmentManager : MonoBehaviour
     void Start(){
         //spawn keys
         staticKeySpawn(keyPrefab);
+  
     }
 
     // Increments fragment count and logs progress
     public void CollectFragment()
     {
+        Debug.Log("CollectFragment called\n");
         collectedFragments++;
         Debug.Log($"Fragments collected: {collectedFragments}/{requiredFragments}");
+        //trigger event
+        OnKeyCollection?.Invoke();
+
     }
 
     // Returns true if all fragments collected or in test mode
     public bool HasAllFragments()
     {
-        return testMode || collectedFragments >= requiredFragments;
-    }
-
-    //player action triggers the key collection
-    public void OnMouseDown(){
-        //print interaction to console
-        Debug.Log("Clicked key/n");
-        //destroy this key
-        Destroy(gameObject);
-        CollectFragment();
-        OnKeyCollection.Invoke(this);
+        //return testMode || collectedFragments >= requiredFragments;
+        //getting rid of test mode
+        return collectedFragments >= requiredFragments;
     }
 
     //returns keycount for the UI display
@@ -87,5 +87,4 @@ public class KeyFragmentManager : MonoBehaviour
         return collectedFragments;
     }
 
-    
 }
