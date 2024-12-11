@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
     [Header("Audio Settings")]
     public AudioSource heartbeatAudioSource;
     public float heartbeatFadeSpeed = 1f;
-    public float maxHeartbeatVolume = 1f; // Maximum volume for the heartbeat
+    public float maxHeartbeatVolume = 1f;
 
     private NavMeshAgent agent;
     private Animator animator;
@@ -22,6 +22,7 @@ public class EnemyController : MonoBehaviour
     private int currentWaypointIndex = 0;
     private float currentHeartbeatVolume = 0f;
     private bool shouldFadeOut = false;
+    private PlayerController playerController;
 
     private enum EnemyState { Idle, Walk, Chase }
     private EnemyState currentState = EnemyState.Idle;
@@ -33,8 +34,8 @@ public class EnemyController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        playerController = player.GetComponent<PlayerController>();
 
-        // Initialize heartbeat audio
         if (heartbeatAudioSource != null)
         {
             heartbeatAudioSource.volume = 0f;
@@ -71,7 +72,7 @@ public class EnemyController : MonoBehaviour
         agent.speed = chaseSpeed;
         agent.SetDestination(player.position);
 
-        if (Vector3.Distance(transform.position, player.position) > sightDistance)
+        if (Vector3.Distance(transform.position, player.position) > sightDistance || IsPlayerHidingInLocker())
         {
             shouldFadeOut = true;
             currentState = EnemyState.Walk;
@@ -115,8 +116,38 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    private bool IsPlayerHidingInLocker()
+    {
+        // Cast a sphere around the player to find nearby lockers
+        Collider[] nearbyObjects = Physics.OverlapSphere(player.position, 1f);
+
+        foreach (Collider collider in nearbyObjects)
+        {
+            LockerController locker = collider.GetComponent<LockerController>();
+            if (locker != null && locker.IsDoorOpen() == false)
+            {
+                // If player is near a closed locker, they're considered hidden
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     private void CheckForPlayerDetection()
     {
+        // If player is hiding in a locker, don't detect them
+        if (IsPlayerHidingInLocker())
+        {
+            if (currentState == EnemyState.Chase)
+            {
+                shouldFadeOut = true;
+                currentState = EnemyState.Walk;
+                agent.speed = walkSpeed;
+            }
+            return;
+        }
+
         RaycastHit hit;
         Vector3 playerDirection = player.position - transform.position;
 
