@@ -16,11 +16,13 @@ public class KillPlayer : MonoBehaviour
             Debug.Log("Player entered the trigger!");
             playerInsideTrigger = true;
 
+            // Unlock and show the cursor before transitioning
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+
             Invoke("LoadNextScene", 0);
         }
     }
-
-
 
     private void LoadNextScene()
     {

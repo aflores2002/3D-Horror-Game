@@ -8,6 +8,8 @@ public class MenuStuff : MonoBehaviour
     public string nextSceneName; // Name of the next scene to load
     public void B_LoadScene()
     {
+        Debug.Log("Retry button clicked");
+
         SceneManager.LoadScene(nextSceneName);
     }
 
