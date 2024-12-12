@@ -13,9 +13,35 @@ public class DoorController : MonoBehaviour
     [SerializeField]
     private bool showDebugMessages = true;  // Toggle debug logging
 
+    [Header("Audio Settings")]
+    [SerializeField]
+    private AudioSource audioSource;
+    [SerializeField]
+    private AudioClip doorOpenSound;
+    [SerializeField]
+    private AudioClip doorUnlockSound;
+    [SerializeField]
+    [Range(0f, 1f)]
+    private float doorOpenVolume = 1f;
+    [SerializeField]
+    [Range(0f, 1f)]
+    private float doorUnlockVolume = 1f;
+
+    private bool hasUnlocked = false;
+
     void Start()
     {
         animator = GetComponent<Animator>();
+
+        // Auto-assign AudioSource if not set
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+            }
+        }
     }
 
     // Handles player input when in range of door
@@ -27,11 +53,18 @@ public class DoorController : MonoBehaviour
         }
     }
 
-    // Checks if player has required fragments before opening door (Will be actually implemented later)
+    // Checks if player has required fragments before opening door
     void TryOpenDoor()
     {
         if (KeyFragmentManager.Instance.HasAllFragments())
         {
+            // Play unlock sound if this is the first time unlocking
+            if (!hasUnlocked)
+            {
+                PlaySound(doorUnlockSound, doorUnlockVolume);
+                hasUnlocked = true;
+            }
+
             OpenDoor();
             if (showDebugMessages)
             {
@@ -44,11 +77,23 @@ public class DoorController : MonoBehaviour
         }
     }
 
+    // Plays the specified sound at the given volume
+    private void PlaySound(AudioClip clip, float volume)
+    {
+        if (audioSource != null && clip != null)
+        {
+            audioSource.clip = clip;
+            audioSource.volume = volume;
+            audioSource.Play();
+        }
+    }
+
     // Triggers door opening animation
     void OpenDoor()
     {
         isDoorOpen = true;
         animator.Play("Door_open");
+        PlaySound(doorOpenSound, doorOpenVolume);
     }
 
     // Detects when player enters interaction range
