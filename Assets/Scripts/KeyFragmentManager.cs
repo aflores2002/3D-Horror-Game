@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Events;
 
+//for restart button
+using UnityEngine.SceneManagement;
+
 
 
 // Manages key fragment collection using singleton pattern (Will fully implement later)
@@ -28,7 +31,8 @@ public class KeyFragmentManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            //removing this part so that the restart button works correctly
+            //DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -36,8 +40,13 @@ public class KeyFragmentManager : MonoBehaviour
         }
     }
 
+    //reset the score when the player loses
+    public void resetKeyCount(){
+        collectedFragments = 0;
+    }
+    
     //spawn key locations at start
-    void staticKeySpawn(GameObject key){
+    private void staticKeySpawn(GameObject key){
         //set positions
         Vector3 pos1 = new Vector3(-32.877f, 2.517f, 31.312f);
         Vector3 pos2 = new Vector3(1.22f, 1.657f, -1.82f);
@@ -55,7 +64,10 @@ public class KeyFragmentManager : MonoBehaviour
         key4.transform.parent = null;
 
     }
-
+    //called at restart
+    public void externalKeySpawn(){
+        staticKeySpawn(keyPrefab);
+    }
     void Start(){
         //spawn keys
         staticKeySpawn(keyPrefab);

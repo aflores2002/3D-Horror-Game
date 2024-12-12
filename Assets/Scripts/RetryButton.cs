@@ -3,7 +3,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class RetryButton : MonoBehaviour
+
 {
+
     // This method is called when the button is clicked
     public void OnButtonClick()
     {
