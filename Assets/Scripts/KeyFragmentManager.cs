@@ -3,9 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Events;
 
-
-
-// Manages key fragment collection using singleton pattern (Will fully implement later)
+// Manages key fragment collection using singleton pattern
 public class KeyFragmentManager : MonoBehaviour
 {
     //for spawning the keys
@@ -15,12 +13,22 @@ public class KeyFragmentManager : MonoBehaviour
 
     public UnityEvent OnKeyCollection;
 
+    [Header("Key Settings")]
     [SerializeField]
-    //private bool testMode = true;  // Bypasses fragment requirement when enabled
-
+    private bool testMode = true;  // Bypasses fragment requirement when enabled
     public int collectedFragments = 0;
     public int requiredFragments = 4;
 
+    [Header("Audio Settings")]
+    [SerializeField]
+    private AudioSource audioSource;
+    [SerializeField]
+    private AudioClip allFragmentsCollectedSound;
+    [SerializeField]
+    [Range(0f, 1f)]
+    private float collectAllVolume = 1f;
+
+    private bool hasPlayedCollectAllSound = false;
 
     void Awake()
     {
@@ -33,6 +41,16 @@ public class KeyFragmentManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+        }
+
+        // Setup audio source if needed
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+            }
         }
     }
 
@@ -68,15 +86,32 @@ public class KeyFragmentManager : MonoBehaviour
         Debug.Log("CollectFragment called\n");
         collectedFragments++;
         Debug.Log($"Fragments collected: {collectedFragments}/{requiredFragments}");
+
+        // Check if all fragments are collected
+        if (collectedFragments >= requiredFragments && !hasPlayedCollectAllSound)
+        {
+            PlayCollectAllSound();
+            hasPlayedCollectAllSound = true;
+        }
+
         //trigger event
         OnKeyCollection?.Invoke();
+    }
 
+    private void PlayCollectAllSound()
+    {
+        if (audioSource != null && allFragmentsCollectedSound != null)
+        {
+            audioSource.clip = allFragmentsCollectedSound;
+            audioSource.volume = collectAllVolume;
+            audioSource.Play();
+        }
     }
 
     // Returns true if all fragments collected or in test mode
     public bool HasAllFragments()
     {
-        //return testMode || collectedFragments >= requiredFragments;
+        return testMode || collectedFragments >= requiredFragments;
         //getting rid of test mode
         return collectedFragments >= requiredFragments;
     }

@@ -21,15 +21,33 @@ public class EndGameTriggerWithFade : MonoBehaviour
     private string victoryMessage = "Congratulations!\nYou have survived!";
 
     [SerializeField]
+    [Tooltip("Time between each character (in seconds)")]
     private float typingSpeed = 0.05f; // Delay between each character appearing
 
+    [Header("Audio Settings")]
     [SerializeField]
-    private AudioSource typingSoundEffect; // Sound played for each character typed
+    private AudioSource audioSource; // Main audio source for sounds
+    [SerializeField]
+    private AudioClip typingSound; // Sound for typing effect
+    [SerializeField]
+    private AudioClip victorySound; // Sound played when victory sequence starts
+    [SerializeField]
+    [Range(0f, 1f)]
+    private float typingSoundVolume = 0.5f; // Volume for typing sounds
+    [SerializeField]
+    [Range(0f, 1f)]
+    private float victorySoundVolume = 1f; // Volume for victory sound
+    [SerializeField]
+    [Tooltip("Delay before starting victory sequence")]
+    private float startDelay = 0.5f; // Delay before sequence starts
+
+    [Header("Player Settings")]
+    [SerializeField]
+    private PlayerController playerController; // Reference to the player controller
 
     private bool hasEnded = false;   // Prevents trigger from firing multiple times
     private CanvasGroup canvasGroup; // Controls panel transparency
 
-    // Initialize UI elements and ensure proper setup
     void Start()
     {
         if (endingPanel != null)
@@ -48,21 +66,58 @@ public class EndGameTriggerWithFade : MonoBehaviour
                 endingText.richText = false; // Prevents formatting issues
             }
         }
+
+        if (playerController == null)
+        {
+            playerController = FindObjectOfType<PlayerController>();
+        }
+
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+            }
+        }
     }
 
-    // Triggers victory sequence when player enters trigger zone
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !hasEnded)
         {
+            if (playerController == null)
+            {
+                playerController = other.GetComponent<PlayerController>();
+            }
             StartCoroutine(ShowVictorySequence());
         }
     }
 
-    // Coordinates the victory animations
+    private void PlaySound(AudioClip clip, float volume)
+    {
+        if (audioSource != null && clip != null)
+        {
+            audioSource.PlayOneShot(clip, volume); // Using PlayOneShot instead of Play
+        }
+    }
+
     IEnumerator ShowVictorySequence()
     {
         hasEnded = true;
+
+        // Disable player movement immediately
+        if (playerController != null)
+        {
+            playerController.SetControlsEnabled(false);
+            playerController.StoreCurrentRotation();
+        }
+
+        // Wait before starting sequence
+        yield return new WaitForSeconds(startDelay);
+
+        // Play victory sound
+        PlaySound(victorySound, victorySoundVolume);
 
         if (endingPanel != null)
         {
@@ -70,11 +125,8 @@ public class EndGameTriggerWithFade : MonoBehaviour
             StartCoroutine(FadeInPanel());
             StartCoroutine(TypeText());
         }
-
-        yield break;
     }
 
-    // Gradually fades in the ending panel
     IEnumerator FadeInPanel()
     {
         while (canvasGroup.alpha < 1f)
@@ -84,21 +136,24 @@ public class EndGameTriggerWithFade : MonoBehaviour
         }
     }
 
-    // Creates typewriter effect by showing text character by character
     IEnumerator TypeText()
     {
         if (endingText != null)
         {
+            // Short delay before starting typing
+            yield return new WaitForSeconds(0.2f);
+
             foreach (char c in victoryMessage)
             {
                 endingText.text += c;
 
-                if (typingSoundEffect != null)
+                if (c != ' ' && c != '\n') // Don't play sound for spaces or newlines
                 {
-                    typingSoundEffect.Play();
+                    PlaySound(typingSound, typingSoundVolume);
                 }
 
-                yield return new WaitForSeconds(typingSpeed);
+                // Use unscaled time to ensure consistent typing speed
+                yield return new WaitForSecondsRealtime(typingSpeed);
             }
         }
     }
