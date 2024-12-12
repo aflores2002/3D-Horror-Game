@@ -18,6 +18,9 @@ public class KeyFragmentManager : MonoBehaviour
 
     public UnityEvent OnKeyCollection;
 
+    //for key collection sound
+    public AudioSource keyCollectSound;
+
     [SerializeField]
     //private bool testMode = true;  // Bypasses fragment requirement when enabled
 
@@ -79,6 +82,9 @@ public class KeyFragmentManager : MonoBehaviour
     {
         Debug.Log("CollectFragment called\n");
         collectedFragments++;
+        //play collection noise
+        keyCollectSound = GetComponent<AudioSource>();
+        keyCollectSound.Play();
         Debug.Log($"Fragments collected: {collectedFragments}/{requiredFragments}");
         //trigger event
         OnKeyCollection?.Invoke();
