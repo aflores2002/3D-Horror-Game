@@ -1,81 +1,99 @@
-﻿using UnityEngine;
+﻿// PlayerController.cs
+using UnityEngine;
+using System.Collections;
 
-// Handles player movement and camera controls using CharacterController
+
+// Need this to make player move
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
+    // Drag and drop the Main Camera here in Unity
     public Camera myCamera;
+
+    // How fast the player moves
     public float normalSpeed = 3f;
     public float fastSpeed = 10f;
-    public float mouseSpeed = 2f;
-    public float maxUpDownAngle = 75f; // Maximum angle player can look up/down
-    public float smoothValue = 5f; // Controls how smoothly camera rotation occurs
 
+    // Mouse and camera stuff
+    public float mouseSpeed = 2f;
+    public float maxUpDownAngle = 75f;
+    public float smoothValue = 5f;
+
+    // Footstep Audio Variables
+    public AudioClip[] footstepSounds; // Array of footstep sounds
+    public Transform footstepAudioPosition; // Position of the audio source
+    public AudioSource audioSource; // Audio source to play the sounds
+    public float walkFootstepDelay = 0.5f; // Delay between footsteps when walking
+    public float runFootstepDelay = 0.3f; // Delay between footsteps when running
+
+    // These keep track of player movement
     private Vector3 howToMove = Vector3.zero;
-    private float upDownLook = 0;    // Vertical camera rotation
-    private float leftRightLook = 0; // Horizontal camera rotation
+    private float upDownLook = 0;
+    private float leftRightLook = 0;
     private bool playerCanMove = true;
+    private bool isWalking = false; // Whether the player is walking
+    private bool isFootstepCoroutineRunning = false; // To track coroutine status
+
+    // This moves the player
     private CharacterController myController;
-    private float initialCameraHeight; // Stores original camera height to prevent unwanted changes
 
     void Start()
     {
+        // Get the component that moves the player
         myController = GetComponent<CharacterController>();
 
-        // Lock and hide cursor for first-person control
+        // Make the mouse disappear
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
-        initialCameraHeight = myCamera.transform.localPosition.y;
     }
 
     void Update()
     {
-        // Maintain consistent camera height relative to player
-        Vector3 cameraPos = myCamera.transform.localPosition;
-        if (cameraPos.y != initialCameraHeight)
-        {
-            cameraPos.y = initialCameraHeight;
-            myCamera.transform.localPosition = cameraPos;
-        }
-
-        // Get local directional vectors for movement
+        // Movement
         Vector3 whereIsForward = transform.TransformDirection(Vector3.forward);
         Vector3 whereIsRight = transform.TransformDirection(Vector3.right);
 
         bool isPlayerRunning = Input.GetKey(KeyCode.LeftShift);
 
         float forwardSpeed = 0;
-        float sideSpeed = 0;
-
-        if(playerCanMove)
+        if (playerCanMove)
         {
-            // Calculate movement speeds based on running state
-            if(isPlayerRunning)
-            {
-                forwardSpeed = fastSpeed * Input.GetAxis("Vertical");
-                sideSpeed = fastSpeed * Input.GetAxis("Horizontal");
-            }
-            else
-            {
-                forwardSpeed = normalSpeed * Input.GetAxis("Vertical");
-                sideSpeed = normalSpeed * Input.GetAxis("Horizontal");
-            }
+            forwardSpeed = (isPlayerRunning ? fastSpeed : normalSpeed) * Input.GetAxis("Vertical");
+        }
 
-            // Apply movement
-            howToMove = (whereIsForward * forwardSpeed) + (whereIsRight * sideSpeed);
-            myController.Move(howToMove * Time.deltaTime);
+        float sideSpeed = 0;
+        if (playerCanMove)
+        {
+            sideSpeed = (isPlayerRunning ? fastSpeed : normalSpeed) * Input.GetAxis("Horizontal");
+        }
 
-            // Handle camera vertical rotation with angle clamping
+        howToMove = (whereIsForward * forwardSpeed) + (whereIsRight * sideSpeed);
+        myController.Move(howToMove * Time.deltaTime);
+
+        // Footstep sounds
+        bool isPlayerMoving = howToMove.magnitude > 0.1f;
+        isWalking = isPlayerMoving && playerCanMove;
+
+        if (isWalking && !isFootstepCoroutineRunning)
+        {
+            float footstepDelay = isPlayerRunning ? runFootstepDelay : walkFootstepDelay;
+            StartCoroutine(PlayFootstepSounds(footstepDelay));
+        }
+
+        // Camera logic (unchanged)
+        if (playerCanMove)
+        {
             float mouseUpDown = Input.GetAxis("Mouse Y") * mouseSpeed;
-            upDownLook = upDownLook - mouseUpDown;
-            upDownLook = Mathf.Clamp(upDownLook, -maxUpDownAngle, maxUpDownAngle);
+            upDownLook -= mouseUpDown;
 
-            // Handle camera horizontal rotation
+            if (upDownLook > maxUpDownAngle)
+                upDownLook = maxUpDownAngle;
+            if (upDownLook < -maxUpDownAngle)
+                upDownLook = -maxUpDownAngle;
+
             float mouseLeftRight = Input.GetAxis("Mouse X") * mouseSpeed;
-            leftRightLook = leftRightLook + mouseLeftRight;
+            leftRightLook += mouseLeftRight;
 
-            // Apply smooth camera rotation
             Quaternion newUpDown = Quaternion.Euler(upDownLook, 0, 0);
             Quaternion newLeftRight = Quaternion.Euler(0, leftRightLook, 0);
 
@@ -93,16 +111,27 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Enables/disables player movement and camera control
-    public void SetControlsEnabled(bool enabled)
+    // Play footstep sounds with a delay based on movement speed
+    IEnumerator PlayFootstepSounds(float footstepDelay)
     {
-        playerCanMove = enabled;
-    }
+        isFootstepCoroutineRunning = true;
 
-    // Stores current camera rotation angles for restoration later
-    public void StoreCurrentRotation()
-    {
-        upDownLook = myCamera.transform.localRotation.eulerAngles.x;
-        leftRightLook = transform.rotation.eulerAngles.y;
+        while (isWalking)
+        {
+            if (footstepSounds.Length > 0)
+            {
+                int randomIndex = Random.Range(0, footstepSounds.Length);
+                audioSource.transform.position = footstepAudioPosition.position;
+                audioSource.clip = footstepSounds[randomIndex];
+                audioSource.Play();
+                yield return new WaitForSeconds(footstepDelay);
+            }
+            else
+            {
+                yield break;
+            }
+        }
+
+        isFootstepCoroutineRunning = false;
     }
 }
