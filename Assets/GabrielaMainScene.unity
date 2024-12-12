@@ -2007,7 +2007,7 @@ Transform:
   m_GameObject: {fileID: 470084930}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -28.15, y: 0.03, z: 11.37}
+  m_LocalPosition: {x: -28.15, y: 0.02, z: 11.37}
   m_LocalScale: {x: 4.1047583, y: 5.9115067, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8695,7 +8695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6754674874353905211, guid: bd7d387491dfe4d2fb7d1c4784f9a579, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -3584497630037689987, guid: bd7d387491dfe4d2fb7d1c4784f9a579, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10267,10 +10267,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1786761555}
         m_TargetAssemblyTypeName: CountManager, Assembly-CSharp
         m_MethodName: UpdateKeyCountText
-        m_Mode: 2
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 1861358501}
-          m_ObjectArgumentAssemblyTypeName: KeyFragmentManager, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

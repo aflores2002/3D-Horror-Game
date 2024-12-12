@@ -42,7 +42,7 @@ public class KeyFragmentManager : MonoBehaviour
         //set positions
         Vector3 pos1 = new Vector3(-33.3f, 2.517f, 31.1f);
         Vector3 pos2 = new Vector3(1.22f, 2.517f, -1.82f);
-        Vector3 pos3 = new Vector3(21.5f, 1.639f, -21.9f);
+        Vector3 pos3 = new Vector3(21.5f, 2.523f, -21.9f);
         Vector3 pos4 = new Vector3(-9.7f, 2.26f, -17.6f);
 
         //instantiate keys at specific positions
