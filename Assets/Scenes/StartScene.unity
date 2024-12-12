@@ -187,8 +187,8 @@ MonoBehaviour:
     gets too close. With every key you find, the stakes grow higher, as the asylum\u2019s
     eerie silence is broken by the sound of your pursuer drawing nearer. Can you
     outsmart the enemy, gather all five keys, and escape this nightmare?\n\nControls:\nWASD
-    or Arrow Keys: Move\nMouse: Move Camera\nClick: Pick Up Keys\nE: Interact With
-    Exit Door and Lockers \n"
+    or Arrow Keys: Move\nShift: Sprint\nMouse: Move Camera\nClick: Pick Up Keys\nE:
+    Interact With Exit Door and Lockers \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1370,7 +1370,7 @@ GameObject:
   - component: {fileID: 1384288844}
   - component: {fileID: 1384288843}
   m_Layer: 0
-  m_Name: Description
+  m_Name: INFOButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

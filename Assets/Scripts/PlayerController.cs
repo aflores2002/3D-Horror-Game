@@ -1,5 +1,7 @@
 ﻿// PlayerController.cs
 using UnityEngine;
+using System.Collections;
+
 
 // Need this to make player move
 [RequireComponent(typeof(CharacterController))]
@@ -17,11 +19,20 @@ public class PlayerController : MonoBehaviour
     public float maxUpDownAngle = 75f;
     public float smoothValue = 5f;
 
+    // Footstep Audio Variables
+    public AudioClip[] footstepSounds; // Array of footstep sounds
+    public Transform footstepAudioPosition; // Position of the audio source
+    public AudioSource audioSource; // Audio source to play the sounds
+    public float walkFootstepDelay = 0.5f; // Delay between footsteps when walking
+    public float runFootstepDelay = 0.3f; // Delay between footsteps when running
+
     // These keep track of player movement
     private Vector3 howToMove = Vector3.zero;
     private float upDownLook = 0;
     private float leftRightLook = 0;
     private bool playerCanMove = true;
+    private bool isWalking = false; // Whether the player is walking
+    private bool isFootstepCoroutineRunning = false; // To track coroutine status
 
     // This moves the player
     private CharacterController myController;
@@ -36,76 +47,56 @@ public class PlayerController : MonoBehaviour
         Cursor.visible = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         // Movement
-        // Figure out which way is forward and right
         Vector3 whereIsForward = transform.TransformDirection(Vector3.forward);
         Vector3 whereIsRight = transform.TransformDirection(Vector3.right);
 
-        // Check if shift is being held down to run
         bool isPlayerRunning = Input.GetKey(KeyCode.LeftShift);
 
-        // Figure out how fast to move
-        // W and S keys
         float forwardSpeed = 0;
-        if(playerCanMove)
+        if (playerCanMove)
         {
-            if(isPlayerRunning)
-            {
-                forwardSpeed = fastSpeed * Input.GetAxis("Vertical");
-            }
-            else
-            {
-                forwardSpeed = normalSpeed * Input.GetAxis("Vertical");
-            }
+            forwardSpeed = (isPlayerRunning ? fastSpeed : normalSpeed) * Input.GetAxis("Vertical");
         }
 
-        // A and D keys
         float sideSpeed = 0;
-        if(playerCanMove)
+        if (playerCanMove)
         {
-            if(isPlayerRunning)
-            {
-                sideSpeed = fastSpeed * Input.GetAxis("Horizontal");
-            }
-            else
-            {
-                sideSpeed = normalSpeed * Input.GetAxis("Horizontal");
-            }
+            sideSpeed = (isPlayerRunning ? fastSpeed : normalSpeed) * Input.GetAxis("Horizontal");
         }
 
-        // Move the player
         howToMove = (whereIsForward * forwardSpeed) + (whereIsRight * sideSpeed);
         myController.Move(howToMove * Time.deltaTime);
 
-        // Camera
-        if(playerCanMove)
+        // Footstep sounds
+        bool isPlayerMoving = howToMove.magnitude > 0.1f;
+        isWalking = isPlayerMoving && playerCanMove;
+
+        if (isWalking && !isFootstepCoroutineRunning)
         {
-            // Move camera up/down with mouse
+            float footstepDelay = isPlayerRunning ? runFootstepDelay : walkFootstepDelay;
+            StartCoroutine(PlayFootstepSounds(footstepDelay));
+        }
+
+        // Camera logic (unchanged)
+        if (playerCanMove)
+        {
             float mouseUpDown = Input.GetAxis("Mouse Y") * mouseSpeed;
-            upDownLook = upDownLook - mouseUpDown;
+            upDownLook -= mouseUpDown;
 
-            // Don't let player look too far up or down
-            if(upDownLook > maxUpDownAngle)
-            {
+            if (upDownLook > maxUpDownAngle)
                 upDownLook = maxUpDownAngle;
-            }
-            if(upDownLook < -maxUpDownAngle)
-            {
+            if (upDownLook < -maxUpDownAngle)
                 upDownLook = -maxUpDownAngle;
-            }
 
-            // Move camera left/right with mouse
             float mouseLeftRight = Input.GetAxis("Mouse X") * mouseSpeed;
-            leftRightLook = leftRightLook + mouseLeftRight;
+            leftRightLook += mouseLeftRight;
 
-            // Make the camera movement smooth
             Quaternion newUpDown = Quaternion.Euler(upDownLook, 0, 0);
             Quaternion newLeftRight = Quaternion.Euler(0, leftRightLook, 0);
 
-            // Actually move the camera
             myCamera.transform.localRotation = Quaternion.Slerp(
                 myCamera.transform.localRotation,
                 newUpDown,
@@ -118,5 +109,29 @@ public class PlayerController : MonoBehaviour
                 Time.deltaTime * smoothValue
             );
         }
+    }
+
+    // Play footstep sounds with a delay based on movement speed
+    IEnumerator PlayFootstepSounds(float footstepDelay)
+    {
+        isFootstepCoroutineRunning = true;
+
+        while (isWalking)
+        {
+            if (footstepSounds.Length > 0)
+            {
+                int randomIndex = Random.Range(0, footstepSounds.Length);
+                audioSource.transform.position = footstepAudioPosition.position;
+                audioSource.clip = footstepSounds[randomIndex];
+                audioSource.Play();
+                yield return new WaitForSeconds(footstepDelay);
+            }
+            else
+            {
+                yield break;
+            }
+        }
+
+        isFootstepCoroutineRunning = false;
     }
 }
