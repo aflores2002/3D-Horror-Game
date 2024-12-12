@@ -2,13 +2,21 @@ using UnityEngine;
 
 public class PlayerFlashlight : MonoBehaviour
 {
+    [Header("Light Settings")]
     [SerializeField]
     private Light spotLight;
-
     [SerializeField]
     private KeyCode toggleKey = KeyCode.F;
 
-    private bool isFlashlightOn = true;
+    [Header("Audio Settings")]
+    [SerializeField]
+    private AudioSource audioSource;
+    [SerializeField]
+    private AudioClip turnOnSound;
+    [SerializeField]
+    private AudioClip turnOffSound;
+
+    private bool isFlashlightOn = false; // Changed to false so flashlight starts off
 
     void Start()
     {
@@ -19,7 +27,13 @@ public class PlayerFlashlight : MonoBehaviour
             return;
         }
 
-        spotLight.enabled = isFlashlightOn;
+        // Check if we have audio components
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
+
+        spotLight.enabled = isFlashlightOn; // Will start disabled
     }
 
     void Update()
@@ -36,6 +50,17 @@ public class PlayerFlashlight : MonoBehaviour
         {
             isFlashlightOn = !isFlashlightOn;
             spotLight.enabled = isFlashlightOn;
+
+            // Play appropriate sound effect
+            if (audioSource != null)
+            {
+                AudioClip clipToPlay = isFlashlightOn ? turnOnSound : turnOffSound;
+                if (clipToPlay != null)
+                {
+                    audioSource.clip = clipToPlay;
+                    audioSource.Play();
+                }
+            }
         }
     }
 }
