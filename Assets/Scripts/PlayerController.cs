@@ -111,6 +111,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // Enables/disables player movement and camera control
+    public void SetControlsEnabled(bool enabled)
+    {
+        playerCanMove = enabled;
+    }
+
+    // Stores current camera rotation angles for restoration later
+    public void StoreCurrentRotation()
+    {
+        upDownLook = myCamera.transform.localRotation.eulerAngles.x;
+        leftRightLook = transform.rotation.eulerAngles.y;
+    }
+
     // Play footstep sounds with a delay based on movement speed
     IEnumerator PlayFootstepSounds(float footstepDelay)
     {

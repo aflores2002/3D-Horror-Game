@@ -26,6 +26,10 @@ public class EndGameTriggerWithFade : MonoBehaviour
     [SerializeField]
     private AudioSource typingSoundEffect; // Sound played for each character typed
 
+    [Header("Player Settings")]
+    [SerializeField]
+    private PlayerController playerController; // Reference to the player controller
+
     private bool hasEnded = false;   // Prevents trigger from firing multiple times
     private CanvasGroup canvasGroup; // Controls panel transparency
 
@@ -48,6 +52,12 @@ public class EndGameTriggerWithFade : MonoBehaviour
                 endingText.richText = false; // Prevents formatting issues
             }
         }
+
+        // Try to find PlayerController if not assigned
+        if (playerController == null)
+        {
+            playerController = FindObjectOfType<PlayerController>();
+        }
     }
 
     // Triggers victory sequence when player enters trigger zone
@@ -55,6 +65,10 @@ public class EndGameTriggerWithFade : MonoBehaviour
     {
         if (other.CompareTag("Player") && !hasEnded)
         {
+            if (playerController == null)
+            {
+                playerController = other.GetComponent<PlayerController>();
+            }
             StartCoroutine(ShowVictorySequence());
         }
     }
@@ -63,6 +77,15 @@ public class EndGameTriggerWithFade : MonoBehaviour
     IEnumerator ShowVictorySequence()
     {
         hasEnded = true;
+
+        // Disable player movement
+        if (playerController != null)
+        {
+            playerController.SetControlsEnabled(false);
+
+            // Store final camera rotation to prevent snapping
+            playerController.StoreCurrentRotation();
+        }
 
         if (endingPanel != null)
         {
