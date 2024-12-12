@@ -21,11 +21,16 @@ public class DoorController : MonoBehaviour
     [SerializeField]
     private AudioClip doorUnlockSound;
     [SerializeField]
+    private AudioClip doorLockedSound;  // New audio clip for locked door
+    [SerializeField]
     [Range(0f, 1f)]
     private float doorOpenVolume = 1f;
     [SerializeField]
     [Range(0f, 1f)]
     private float doorUnlockVolume = 1f;
+    [SerializeField]
+    [Range(0f, 1f)]
+    private float doorLockedVolume = 1f;  // Volume for locked door sound
 
     private bool hasUnlocked = false;
 
@@ -71,9 +76,15 @@ public class DoorController : MonoBehaviour
                 Debug.Log("Door opened successfully!");
             }
         }
-        else if (showDebugMessages)
+        else
         {
-            Debug.Log("Need all fragments to open door!");
+            // Play locked door sound when attempting to open without enough fragments
+            PlaySound(doorLockedSound, doorLockedVolume);
+
+            if (showDebugMessages)
+            {
+                Debug.Log("Need all fragments to open door!");
+            }
         }
     }
 

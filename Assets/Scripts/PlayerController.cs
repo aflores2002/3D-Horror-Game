@@ -2,7 +2,6 @@
 using UnityEngine;
 using System.Collections;
 
-
 // Need this to make player move
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
@@ -33,6 +32,7 @@ public class PlayerController : MonoBehaviour
     private bool playerCanMove = true;
     private bool isWalking = false; // Whether the player is walking
     private bool isFootstepCoroutineRunning = false; // To track coroutine status
+    private bool wasPlayerRunning = false; // Tracks the previous running state
 
     // This moves the player
     private CharacterController myController;
@@ -74,11 +74,23 @@ public class PlayerController : MonoBehaviour
         bool isPlayerMoving = howToMove.magnitude > 0.1f;
         isWalking = isPlayerMoving && playerCanMove;
 
-        if (isWalking && !isFootstepCoroutineRunning)
+        if (isWalking)
         {
-            float footstepDelay = isPlayerRunning ? runFootstepDelay : walkFootstepDelay;
-            StartCoroutine(PlayFootstepSounds(footstepDelay));
+            if (!isFootstepCoroutineRunning || wasPlayerRunning != isPlayerRunning)
+            {
+                // Restart the footstep coroutine with the correct delay
+                float footstepDelay = isPlayerRunning ? runFootstepDelay : walkFootstepDelay;
+                StopAllCoroutines(); // Stop any existing coroutine
+                StartCoroutine(PlayFootstepSounds(footstepDelay));
+            }
         }
+        else
+        {
+            StopAllCoroutines(); // Stop footstep sounds when not walking
+            isFootstepCoroutineRunning = false;
+        }
+
+        wasPlayerRunning = isPlayerRunning; // Update the running state for the next frame
 
         // Camera logic (unchanged)
         if (playerCanMove)

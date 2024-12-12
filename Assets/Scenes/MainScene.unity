@@ -375,7 +375,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1032,7 +1032,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1.5
   Loop: 0
   Mute: 0
@@ -13003,7 +13003,6 @@ MonoBehaviour:
   OnKeyCollection:
     m_PersistentCalls:
       m_Calls: []
-  testMode: 1
   collectedFragments: 0
   requiredFragments: 4
   audioSource: {fileID: 0}
@@ -13769,7 +13768,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  testMode: 1
   collectedFragments: 0
   requiredFragments: 4
   audioSource: {fileID: 1861358503}
@@ -15369,9 +15367,11 @@ MonoBehaviour:
   showDebugMessages: 1
   audioSource: {fileID: 2130348492}
   doorOpenSound: {fileID: 8300000, guid: 4b66f0c5f1c594a6e9d91b86f719108c, type: 3}
-  doorUnlockSound: {fileID: 8300000, guid: 6ed0f8509e9e44272a85f74fdc61879b, type: 3}
+  doorUnlockSound: {fileID: 0}
+  doorLockedSound: {fileID: 8300000, guid: 6ed0f8509e9e44272a85f74fdc61879b, type: 3}
   doorOpenVolume: 1
   doorUnlockVolume: 1
+  doorLockedVolume: 1
 --- !u!82 &2130348492
 AudioSource:
   m_ObjectHideFlags: 0

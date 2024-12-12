@@ -15,7 +15,7 @@ public class KeyFragmentManager : MonoBehaviour
 
     [Header("Key Settings")]
     [SerializeField]
-    private bool testMode = true;  // Bypasses fragment requirement when enabled
+    // private bool testMode = true;  // Bypasses fragment requirement when enabled
     public int collectedFragments = 0;
     public int requiredFragments = 4;
 
@@ -111,7 +111,7 @@ public class KeyFragmentManager : MonoBehaviour
     // Returns true if all fragments collected or in test mode
     public bool HasAllFragments()
     {
-        return testMode || collectedFragments >= requiredFragments;
+        // return testMode || collectedFragments >= requiredFragments;
         //getting rid of test mode
         return collectedFragments >= requiredFragments;
     }
